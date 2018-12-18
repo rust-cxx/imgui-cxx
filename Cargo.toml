@@ -1,7 +1,10 @@
 [package]
 name = "imgui-cxx"
 version = "0.1.0"
+description = "Dear ImGui: Bloat-free Immediate Mode Graphical User interface for C++ with minimal dependencies"
 authors = ["Rui <2221870259@qq.com>"]
+homepage = "https://github.com/ocornut/imgui"
+repository = "https://github.com/octoon/imgui-cxx.git"
 edition = "2018"
 build = "build.rs"
 
