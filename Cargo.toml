@@ -1,0 +1,13 @@
+[package]
+name = "imgui-cxx"
+version = "0.1.0"
+authors = ["Rui <2221870259@qq.com>"]
+edition = "2018"
+build = "build.rs"
+
+[build-dependencies]
+cargo-cxx = "0.1"
+
+[lib]
+name = "imgui_cxx"
+path = "lib.rs"
