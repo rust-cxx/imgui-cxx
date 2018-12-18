@@ -5,12 +5,12 @@ license = "MIT"
 description = "Dear ImGui: Bloat-free Immediate Mode Graphical User interface for C++ with minimal dependencies"
 authors = ["Rui <2221870259@qq.com>"]
 homepage = "https://github.com/ocornut/imgui"
-repository = "https://github.com/octoon/imgui-cxx.git"
+repository = "https://github.com/rust-cxx/imgui-cxx.git"
 edition = "2018"
 build = "build.rs"
 
 [build-dependencies]
-cargo-cxx = "0.1"
+cargo-cxx = "0.1.1"
 
 [lib]
 name = "imgui_cxx"
